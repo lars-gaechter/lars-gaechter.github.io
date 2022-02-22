@@ -19,7 +19,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://lars-gaechter.github.io/index.html",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone"
