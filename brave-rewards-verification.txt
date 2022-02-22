@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lars-gaechter.github.io
+Token: f4ef5918dadcede9489c861e9b13d25ed040ff8c0ecd0bafebe2ed95cf41d830
