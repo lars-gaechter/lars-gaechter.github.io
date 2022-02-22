@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lars-gaechter.ch
+Token: 79704c555e2e249623b0102240d3127b706c809604159a58c6d667eeaa969df7
