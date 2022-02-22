@@ -1,5 +1,6 @@
 {
   "name": "Lars Gächter",
+  scope: "/"
   "short_name": "LG",
   "icons": [
     {
@@ -19,7 +20,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone"
