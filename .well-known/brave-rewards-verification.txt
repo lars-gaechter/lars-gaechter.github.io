@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: steff-gaechter.github.io
-Token: cba5ddfebd5c0e15e7d616774f6816fae5f334e648917c457f55f0a46c82ff3f
