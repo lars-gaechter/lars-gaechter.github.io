@@ -2,7 +2,7 @@ const CACHE_NAME = 'offline';
 const OFFLINE_URL = 'offline.html';
 
 self.addEventListener('install', function(event) {
-  console.log('[ServiceWorker] Install');
+  //console.log('[ServiceWorker] Install');
   
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
@@ -13,7 +13,7 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', (event) => {
-  console.log('[ServiceWorker] Activate');
+  //console.log('[ServiceWorker] Activate');
   event.waitUntil((async () => {
     if ('navigationPreload' in self.registration) {
       await self.registration.navigationPreload.enable();
@@ -34,7 +34,7 @@ self.addEventListener('fetch', function(event) {
         const networkResponse = await fetch(event.request);
         return networkResponse;
       } catch (error) {
-        console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
+        //console.log('[Service Worker] Fetch failed; returning offline page instead.', error);
 
         const cache = await caches.open(CACHE_NAME);
         const cachedResponse = await cache.match(OFFLINE_URL);
