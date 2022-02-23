@@ -24,6 +24,12 @@ blink, .blink {
         background: #000000;
         color: #ffffff;
     }
+    a {
+        color: #ffffff;
+    }
+    a:hover {
+        background-color: rgb(255, 255, 255, .5);
+    }
 }
 /*iframe {
     height: 100vh;
